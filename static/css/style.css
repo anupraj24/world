@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  overflow-x: hidden;
+}
+
+.section-hero {
+  background-color: #96f2d7;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.heading-secondary,
+.heading-primary {
+  /* color: black;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem; */
+  font-weight: 700;
+  color: black;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  /* font-weight: 700; */
+  line-height: 1.05;
+  /* color: black; */
+  /* letter-spacing: -0.5px; */
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #099268;
+  color: white;
+  margin-right: 1.6rem;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #96f2d7;
+  /* color: white; */
+  /* box-shadow: inset 0 0 0 0 3px white; */
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: white;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #96f2d7;
+  /* color: #555; */
+  /* border: 3px solid white; */
+  /* box-shadow: inset 0 0 0 3px white; */
+  /* box-shadow: inset 0 0 0 0 3px white; */
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.2rem;
+  border: 3px solid #96f2d7;
+}
+.delivered-imgs img:last-child {
+  margin: 0%;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.delivered-text span {
+  color: #099268;
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+  height: 15rem;
+  padding: 0;
+}
+
+.logo {
+  height: 15rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  /* color: #099268; */
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: white;
+  background-color: #099268;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  background-color: #69db7c;
+}
+
+/* ////// */
+
+.section-how {
+  padding: 9.6rem 0;
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* .grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+/* .section-how div {
+  padding: 100px;
+  font-size: 50px;
+} */
+
+/* .section-how div:nth-child(1) {
+  background-color: aqua;
+}
+
+.section-how div:nth-child(2) {
+  background-color: #555;
+}
+
+.section-how div:nth-child(3) {
+  background-color: #96f2d7;
+}
+
+.section-how div:nth-child(4) {
+  background-color: #223345;
+}  */
+
+.step-img {
+  width: 30%;
+  /* z-index: 10; */
+
+  /* margin-left: 6rem; */
+}
+
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .step-img-box::before {
+  content: "";
+  display: block;
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #96f2d7;
+  border-radius: 50%;
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+/* transform: translate(-50%, -50%);
+  z-index: -1;
+} */
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #099268;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+  /* border: 3px solid #099268; */
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.h1 {
+  margin-top: 4rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 5rem;
+}
